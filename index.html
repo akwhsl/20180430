@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>list실습</title>
+	<style>
+
+		a:link, a:active, a:visited, a:hover {text-decoration: none;}
+		a:link, a:active, a:visited {color: black;}
+		
+
+		nav {width: 1000px; margin: auto; height: 44px;}
+		nav #logo {width: 200px; height: 44px; float: left;}
+		nav #logo a {display: block; text-align: center; line-height: 44px;}
+		nav #logo a:hover {color: black; font-weight: bold; background: yellowgreen;}
+		nav #menuList {float: right; margin: 0; padding: 0;}
+		nav #menuList .main-menu-item {list-style: none; float: left; width: 150px; height: 44px;}
+		nav #menuList a {display: block; height: 44px; text-align: center; line-height: 44px;}
+		nav #menuList a:hover {color: black; font-weight: bold; background: yellowgreen;}
+
+		section {width: 1000px; margin: auto; padding: 2em; height: 250px;}
+
+		#wrap {width: 250px; height: 250px; float: left; margin: auto;}
+		.image {width: 200px; height: 200px; float: left; overflow: hidden; margin: 0.5em; padding: 1em;}
+		.image img {width: 100%;}
+		.image img:hover {transform: rotateY(180deg);}
+
+		.page {width: 1000px; height: 2em; margin: auto;}
+		.page p { font-size: 1.3em; font-weight: bold; height: 2em; margin: auto; padding: 1em; text-align: center;}
+		.clear {clear: both;}
+
+	</style>
+</head>
+<body>
+	<nav>
+		<div id="logo">
+			<a href="index.html">listExample</a>
+		</div>
+		<ul id="menuList">
+			<li class="main-menu-item">
+				<a href="https://www.naver.com" target="_new">menu1</a>
+			</li>
+			<li class="main-menu-item">
+				<a href="https://www.naver.com" target="_new">menu2</a>
+			</li>
+			<li class="main-menu-item">
+				<a href="https://www.naver.com" target="_new">menu3</a>
+			</li>
+			<li class="main-menu-item">
+				<a href="https://www.naver.com" target="_new">menu4</a>
+			</li>
+		</ul>
+	</nav>
+
+<section>
+	<div id="wrap">
+		<div class="image">
+			<img src="미피.jpg">
+		</div>
+	</div>
+		
+	<div id="wrap">
+		<div class="image">
+			<img src="베니.jpg">
+		</div>
+	</div>
+
+	<div id="wrap">
+		<div class="image">
+			<img src="오버액션토끼.jpg">
+		</div>
+	</div>
+
+	<div id="wrap">
+		<div class="image">
+			<img src="몰랑이.jpg">
+		</div>
+	</div>
+
+	<div class="page">
+		<p>다양한 토끼 캐릭터를 소개하는 페이지</p>
+	</div>
+
+	<div class="clear"></div>
+</section>
+</body>
+</html>
